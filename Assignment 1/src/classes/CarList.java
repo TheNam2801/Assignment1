@@ -38,5 +38,24 @@ public class CarList {
         return false;
     }                    
     
+    public boolean searchFrame(String frameID) {
+        for (int i = 0; i < carList.size() - 1; i++) {
+            if (carList.get(i).getFrameID().equals(frameID)) {
+                return true;
+            }
+        }
+        return false;
+    }
     
+    public boolean searchEngine(String engineID) {
+        for (int i = 0; i < carList.size() - 1; i++) {
+            if (carList.get(i).getEngineID().equals(engineID)) {
+                return true;
+        }
+            return false;
+    }
+        
+    public void addCar() {
+        
+    }
 }

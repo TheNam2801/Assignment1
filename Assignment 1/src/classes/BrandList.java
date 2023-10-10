@@ -10,9 +10,9 @@ public class BrandList {
     
 //    public boolean loadFromFile(String);
 //    public boolean saveToFile(String);
-//    public int searchID (String ID);
+//Done    public int searchID (String ID);
 //    public Brand getUserChoice();
-//    public void addBrand();
+//Done    public void addBrand();
 //    public void updateBrand();
 //    public void listBrands();
     public boolean searchID(String ID) {

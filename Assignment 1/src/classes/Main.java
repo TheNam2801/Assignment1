@@ -16,7 +16,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Car c1 = new Car();
+        Car c2 = new Car();
+        c1.comparedTo(c2);
     }
     
 }
